@@ -7,7 +7,7 @@ spec:
   selector:
     app: hellogo
   ports:
-  - port: {{  .Values.port }}
-    targetPort: {{  .Values.port }}
+  - port: {{.Values.port}}
+    targetPort: {{.Values.port}}
     protocol: TCP
     name: http
