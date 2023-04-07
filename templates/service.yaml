@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{.Release.Name}}-hellogo
+spec:
+  type: ClusterIP
+  selector:
+    app: hellogo
+  ports:
+  - port: {{  .Values.port }}
+    targetPort: {{  .Values.port }}
+    protocol: TCP
+    name: http
