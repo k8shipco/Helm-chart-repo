@@ -5,7 +5,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: hellogo
+    app: {{.Release.Name}}-hellogo
   ports:
   - port: {{.Values.port}}
     targetPort: {{.Values.port}}
