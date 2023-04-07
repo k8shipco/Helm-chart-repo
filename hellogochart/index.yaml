@@ -3,9 +3,9 @@ entries:
   hellogo:
   - apiVersion: v2
     appVersion: "0.1"
-    created: "2023-04-06T21:05:04.772787-04:00"
+    created: "2023-04-06T23:50:05.055834-04:00"
     description: Basic Hello World Go application
-    digest: d6f4e1f11fa0e8a9f1d9c229f7faacc3e9c06406303594c6c98cdd34749cc736
+    digest: c7e5e72edb1301e27a7be9f01bc979f47d29a042fde6974db87bdfe8dfce419c
     maintainers:
     - email: desiby@hotmail.com
       name: dez bill
@@ -14,4 +14,4 @@ entries:
     urls:
     - hellogo-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-06T21:05:04.771682-04:00"
+generated: "2023-04-06T23:50:05.055112-04:00"
