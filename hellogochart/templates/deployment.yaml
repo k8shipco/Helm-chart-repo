@@ -11,14 +11,14 @@ spec:
       maxUnavailable: 1
   selector:
     matchLabels:
-      app: {{.Release.Name}}-hellogo
+      app: {{ .Values.image.name }}
   template:
     metadata:
       labels:
-        app: {{.Release.Name}}-hellogo
+        app: {{ .Values.image.name }}
     spec:
       containers:
-      - name: {{.Release.Name}}-hellogo
+      - name: {{ .Values.image.name }}
         image: {{.Values.image.repository}}:{{.Values.image.tag}}
         ports:
         - containerPort: {{.Values.port}}
